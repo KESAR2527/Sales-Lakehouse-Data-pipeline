@@ -1,0 +1,9 @@
+{
+  "input_rows": 20,
+  "accepted_rows": 15,
+  "rejected_rows": 5,
+  "total_revenue_cents": 8700000,
+  "currency": "INR",
+  "source_sha256": "99f3b65584255c7c39a781474317013a05ff431f5b45dfcb5dcd5038f20d374d",
+  "execution_mode": "local; no cloud services used"
+}

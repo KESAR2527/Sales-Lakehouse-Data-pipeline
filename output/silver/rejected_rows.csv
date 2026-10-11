@@ -1,0 +1,6 @@
+source_line,reason,raw_row
+17,duplicate order_id,"{""order_id"": ""O003"", ""order_date"": ""2026-10-01"", ""customer_id"": ""C003"", ""region"": ""East"", ""product"": ""Monitor"", ""quantity"": ""1"", ""unit_price"": ""12000.00""}"
+18,quantity and price must be positive finite values,"{""order_id"": ""O016"", ""order_date"": ""2026-10-06"", ""customer_id"": ""C006"", ""region"": ""South"", ""product"": ""Keyboard"", ""quantity"": ""-1"", ""unit_price"": ""1500.00""}"
+19,[<class 'decimal.ConversionSyntax'>],"{""order_id"": ""O017"", ""order_date"": ""2026-10-06"", ""customer_id"": ""C007"", ""region"": ""East"", ""product"": ""Mouse"", ""quantity"": ""2"", ""unit_price"": ""abc""}"
+20,missing required value,"{""order_id"": ""O018"", ""order_date"": ""2026-10-06"", ""customer_id"": """", ""region"": ""North"", ""product"": ""Monitor"", ""quantity"": ""1"", ""unit_price"": ""12000.00""}"
+21,month must be in 1..12,"{""order_id"": ""O019"", ""order_date"": ""2026-13-06"", ""customer_id"": ""C008"", ""region"": ""West"", ""product"": ""Headphones"", ""quantity"": ""1"", ""unit_price"": ""2000.00""}"
